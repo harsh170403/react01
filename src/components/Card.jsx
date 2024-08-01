@@ -32,7 +32,7 @@ const Card = ({ sidebarToggle }) => {
           </div>
           <span className='text-sm  opacity-75 ml-14'>4.6M views| 3 weeks ago</span>
         </div>
-      </div> 
+      </div>  
 
 
       <div className='w-81 p-2 text-white bg-black rounded-xl mt-4 lg:mt-0'>

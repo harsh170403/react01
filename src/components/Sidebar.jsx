@@ -21,7 +21,7 @@ import { BiTrophy } from "react-icons/bi";
 import { LiaLightbulb } from "react-icons/lia";
 import { MdDryCleaning } from "react-icons/md";
 import { MdPodcasts } from "react-icons/md";
-
+import { NavLink } from "react-router-dom"
 
 
 const Sidebar = ({sidebarToggle,setSidebarToggle}) => {
@@ -37,11 +37,15 @@ const Sidebar = ({sidebarToggle,setSidebarToggle}) => {
       </div>
       
       <ul className="mt-3 text-white ">
-        <li className="mb-2 rounded hover:shadow hover:bg-[#303030] py-2 flex items-center">
-          <a href="" className=" flex items-center"></a>
-            <GoHomeFill className="w-6 h-6 mr-4 ml-3" />
+        <li className="mb-2 rounded-l ">
+        <NavLink 
+            to="/" 
+            className={({ isActive }) => 
+              `${isActive ? "bg-[#303030]" : ""} py-2 px-4 flex items-center hover:bg-[#303030] rounded-l`
+            }>
+            <GoHomeFill className="w-6 h-6 mr-4" />
             Home 
-          
+          </NavLink>
         </li>
         <li className="mb-2 rounded hover:shadow hover:bg-[#303030] py-2 flex items-center">
           <a href="" className=" flex items-center"></a>

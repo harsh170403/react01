@@ -3,7 +3,7 @@ const videos = [
     {
       href: "https://www.youtube.com/embed/XE03qdGZrPc?si=BJGhGc2k_GyZy_Gf",
       imgSrc: "images/Screenshot from 2024-07-31 06-43-12.png",
-      title: "Eating challenge| win $2000",
+      title: "Eating challenge | win $2000",
       userImg: "images/Premium Photo _ Astronaut illustration logo icon.jpeg",
       user: "Food vloger",
       views: "14k views",

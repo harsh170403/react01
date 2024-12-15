@@ -1,8 +1,8 @@
-// Card.js
+// Home.js
 import React from 'react';
-import videos from './videoData';
+import videos from '../components/videoData';
 
-const Card = ({ sidebarToggle }) => {
+const Home = ({ sidebarToggle }) => {
   return (
     <div className={`bg-black w-full min-h-screen flex-wrap flex justify-center items-center transition-all ${sidebarToggle ? '' : 'pl-56'}`}>
       <div className='grid grid-cols-1 md:gid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 p-2'>
@@ -30,4 +30,4 @@ const Card = ({ sidebarToggle }) => {
   );
 };
 
-export default Card;
+export default Home;
